@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<!-- For IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- For Resposive Device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- For Window Tab Color -->
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#3b2e4d">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#3b2e4d">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#3b2e4d">
+		<title>Carlos Marañes | AutoML</title>
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="56x56" href="images/logo/icon.png">
+		<!-- Main style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- Color Css -->
+		<link rel="stylesheet" id="jssDefault" href="css/color2.css">
+		<!-- responsive style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+		<!-- Fix Internet Explorer ______________________________________-->
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="vendor/html5shiv.js"></script>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->	
+	</head>
+
+	<body>
+		<div class="main-page-wrapper">
+
+			<!-- ===================================================
+				Loading Transition
+			==================================================== -->
+			<div id="loader-wrapper">
+				<div id="loader">
+					<span class="loader-inner"></span>
+				</div>
+			</div>
+			
+			<!-- Aside Navigation Menu -->
+			<div id="aside-nav-wrapper">
+				<button class="close-menu"><i class="flaticon-cancel"></i></button>
+				<a href="index.html" class="logo"><img src="images/logo/logo1.svg" alt=""></a>
+				<nav id='theme-menu-list'>
+					<ul class="navbar-nav ml-auto">
+			        	<li class="nav-item"><a class="nav-link" href="index.html#home"><i class="icon flaticon-home"></i> Home</a></li>
+			        	<li class="nav-item"><a class="nav-link" href="index.html#about"><i class="icon flaticon-user"></i> About Me</a></li>
+			        	<li class="nav-item"><a class="nav-link" href="index.html#resume"><i class="icon flaticon-resume-and-cv"></i> Resume</a></li>
+			        	<li class="nav-item"><a class="nav-link" href="index.html#portfolio"><i class="icon flaticon-bag-1"></i> Portfolio</a></li>
+			        	<li class="nav-item"><a class="nav-link" href="index.html#blog"><i class="icon flaticon-idea"></i> Blog & News</a></li>
+			        	<li class="nav-item"><a class="nav-link" href="index.html#contact"><i class="icon flaticon-agenda"></i> Contact</a></li>
+			        </ul>
+				</nav>
+			</div> <!-- /.aside-nav-wrapper -->
+
+
+			<!-- ============================ Main Page ========================== -->
+			<div id="main-page">
+
+				<!-- Blog Details -->
+				<section id="blog" class="our-blog">
+					<div class="main-wrapper-bg">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-8 col-12">
+									<div class="blog-details">
+										<div class="main-post-wrapper">
+											<div class="post-top-image"><img src="assets/projects/ml-automl/flowers.jpeg" alt=""></div>
+											<h3 class="title">Automating hyperparameters search of a CNN</h3>
+											<ul class="author-meta clearfix">
+												<li class="tag"><a href="javascript:void(0)">Machine Learning</a></li>
+											</ul>
+											<p>This is a the final project of the <em>Automated Machine Learning</em> that I took on the University of Freiburg, Germany.</p>
+											<p>The problem what to optimize automaticly the hyperparameters of a convolutional neural network. My approach for optimizing a network accuracy with constraints has been an Evolutionary Algorithm with Hyperband, which focuses on keeping a population that satisfy the constraints to then optimize the accuracy. If a configuration with the specified constraints is not satisfied the algorithm returns the one with the best found precision.</p>
+											<div class="col-md-6 col-12"><img src="assets/projects/ml-automl/best_acc_time.png" alt=""></div>
+											<h5>Constraints:</h5>
+											<ul class="list-item">
+												<li>Network size.</li>
+												<li>Precision.</li>
+											</ul>
+											<div class="bottom-content clearfix">
+												<ul class="tag-meta float-left">
+													<li>Project Info:</li>
+													<li><a href="https://github.com/cmaranes/automl-ss21-final-project">Code</a></li>
+                                                    <li><a href="assets/projects/ml-automl/slides-Carlos-Maranes.pdf">Slides</a></li>
+												</ul>
+											</div> <!-- /.bottom-content -->
+										</div> <!-- /.main-post-wrapper -->
+									</div> <!-- /.blog-details -->
+									
+										
+									</div> <!-- /.theme-ribbon-content -->
+								</div> <!-- /.theme-sidebar -->
+							</div> <!-- /.row -->
+						</div> <!-- /.container -->
+					</div> <!-- /.main-wrapper-bg -->
+				</section> <!-- /#blog -->
+				<!-- End Details -->
+
+			</div> <!-- #main-page -->
+
+
+			
+			
+			
+
+
+		<!-- Optional JavaScript _____________________________  -->
+
+    	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    	<!-- jQuery -->
+		<script src="vendor/jquery.2.2.3.min.js"></script>
+		<!-- Popper js -->
+		<script src="vendor/popper.js/popper.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+		<!-- Style-switcher  -->
+		<script src="vendor/jQuery.style.switcher.min.js"></script>
+		<!-- AOS js -->
+		<script src="vendor/aos-next/dist/aos.js"></script>
+		<!-- owl.carousel -->
+		<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+		<!-- js count to -->
+		<script src="vendor/jquery.appear.js"></script>
+		<script src="vendor/jquery.countTo.js"></script>
+		<!-- Fancybox -->
+		<script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+		<!-- Animated Headline -->
+		<script src="vendor/animated-headline-master/main.js"></script>
+		<!-- Select js -->
+		<script src="vendor/selectize.js/selectize.min.js"></script>
+		<!-- validator js -->
+    	<script src="vendor/validator.js"></script>
+    	<!-- isotop -->
+		<script  src="vendor/isotope.pkgd.min.js"></script>
+
+		<!-- Theme js -->
+		<script src="js/theme.js"></script>
+		</div> <!-- /.main-page-wrapper -->
+	</body>
+</html>
